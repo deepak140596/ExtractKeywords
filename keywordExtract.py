@@ -55,11 +55,11 @@ print(filtered_text.most_common(20))
 
 
 ####### ------------------------- Save the keywords to txt file ----------------#######
-new_text = ''.join(str(keywords))
-print(new_text)
-
-# save to text file
-fileWrite = open('ExtractedKeywords.txt','w')
-fileWrite.write(new_text)
+##new_text = ''.join(str(keywords))
+##print(new_text)
+##
+### save to text file
+##fileWrite = open('ExtractedKeywords.txt','w')
+##fileWrite.write(new_text)
 
 
